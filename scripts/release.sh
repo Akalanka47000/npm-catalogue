@@ -1,1 +1,1 @@
-pnpm run bump-version && pnpm publish --access=public --tag=latest || true
+pnpm publish --tag=${TAG:=latest} --access=${1:-public} || true
