@@ -21,6 +21,8 @@ export default [
   "_regeneratorRuntime",
   "_slicedToArray",
   "_toConsumableArray",
+  "_toPrimitive",
+  "_toPropertyKey",
   "_typeof",
   "_unsupportedIterableToArray",
   "_unsupportedIterableToArrayLimit",
@@ -29,12 +31,15 @@ export default [
   "createApplication",
   "define",
   "defineIteratorMethods",
+  "defineProperty",
+  "defineProperties",
   "doneResult",
   "getProto",
   "getPrototypeOf",
   "handle",
   "import",
   "invoke",
+  "makeInvokeMethod",
   "maybeInvokeDelegate",
   "ownKeys",
   "reject",
@@ -46,6 +51,7 @@ export default [
   "tryCatch",
   "values",
   "wrap",
+  "createFormatWrap",
 
   // @ Start express middleware
   "bodyParser",
@@ -57,9 +63,13 @@ export default [
   "helmet",
   "express",
   "expressHealth",
+  "expressMiddleware",
   "middlewareWrapper",
   "morgan",
+  "multer",
   "next",
+  "serveStatic",
+  "session",
   // @ End express middleware
 
   // @ Start tracing Functions
